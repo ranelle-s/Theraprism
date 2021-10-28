@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Responsive Scrolling website - Demo 1 (no javascript)</title>
+    <title>Theraprism</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" >
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -16,37 +17,77 @@
     window.addEventListener('hashchange',addMargin);
     </script>
     
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" >
+    
+    
     </head>
 <body>
     <div id="container">
-        <div id="nav_bar"><nav>
-        <ul>
-            <div id="logo"><a href="#landing"><img src="imgs/1logo.png" height="60px"></a></div>
-            <div id="cart"><a href="#section6"><img src="imgs/2cart.png" height="90px"></a></div>
-        <div id="s1">
+         <div id="nav_bar">
+            
+            <div id="logo">
+                <a href="#landing">
+                    <img src="imgs/1logo.png" height="60px">
+             </a> </div>
+            
+            <nav>
+             <ul>
+                 
             <li id="s1"><a href="#section1">about</a></li>
             <li id="s1"><a href="#section2">history</a></li>
             <li id="s1"><a href="#section3">features</a></li>
             <li id="s1"><a href="#section4">mobile app</a></li>
             <li id="s1"><a href="#section5">user stories</a></li>
             <li id="s1"><a href="#section6">purchase</a></li>
-            <li id="s1"><a href="#section7">our team</a></li>
-            </div>
+            <li id="s1"><a href="#section7">our team</a></li> 
+                 
         </ul></nav>
+             
+            <div id="cart"><a href="#section6"><img src="imgs/2cart.png" height="90px"></a></div>
         </div>
         
+        <div id="mobile_navbar" class="topnav"> 
+            <a href="anchor"></a>
+            <a href="#section1">about</a>
+            <a href="#section2">history</a>
+            <a href="#section3">features</a>
+            <a href="#section4">mobile app</a>
+            <a href="#section5">user stories</a>
+            <a href="#section6">purchase</a>
+            <a href="#section7">our team</a>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+                </a>
+             </div>
+        
+        <div id="mobile_navbar" class="mobilelogo">
+     <a href="#landing">
+         <img src="imgs/mobilelogo.png" height="80px"> </a> </div>
+        
         <div id="landing">
-            <img src="imgs/3landingimg.png" height="900px">
+            <img src="imgs/3landingimg.png" height="800px">
+        </div>
+        
+        <div id="mobilelanding">   
+            <img src="imgs/mobilelanding2.png" height="730px">
         </div>
        
+        
+        
+        
+
+        
      <div id="section1">
             <h1>about the prism <img src="imgs/sparklespace.png" height="35px"></h1>
             <br><br>
-            <p>Theraprism is an easily accessible, private space created for people feeling stressed to take a breather. Put simply, it’s a convenient pop-up tent-like device that uses color and audio therapy to calm and relax the individual residing inside. The walls of the tent contain flexible plastic screens using polyimide (the same kind of screens used in foldable phones) to become extremely heat resistant and bear more than 285,000 folds (medium.com). Thus, it can be folded up into a carrier for easy portability, ready to pop up anytime the user needs their own space to relax. Theraprism uses color therapy as a mild, non-toxic treatment for stress, with the inner screens displaying gentle gradients that change color and calm the resident’s mind. Attached to the outside of the tent are flexible solar panels to charge the technology inside. 
+            <div class="desktop_about"><p>Theraprism is an easily accessible, private space created for people feeling stressed to take a breather. Put simply, it’s a convenient pop-up tent-like device that uses sensory therapy to calm and relax the individual residing inside. Theraprism primarily uses color therapy as a mild, non-toxic treatment for stress, with the inner screens displaying gentle gradients that change color and calm the resident’s mind. Powered by the built in solar panels of the carrier, these built-in screens run along the inside and outside of the tent, curving to perfectly fit the shape of the tent, and completely surrounding users in order to create an experience of their own personal space with no technical interruptions.
             <br> <br>
-            Theraprism is also customizable with the user’s experience, so users may also decide to play a variety of sounds in order to create an additional layer of audio therapy, with outside sounds being blocked out using noise cancellation technology. Options for this include a variety of sounds from nature to general background noise, such as soothing rainfall, crackling bonfire, or simple white noise. Everything from the colors, sounds, and display can be modified right from the user’s phone by using the designated mobile app. In conclusion, all these calming appeals to the senses block out the pressures of the world, and allow the resident to become fully enveloped in the visual and auditory relaxants. They can meditate, lay down, or just sit in silence until they feel rested enough to return to the outside world as a more calm, cool, and collected version of themselves.</p>
+            Theraprism is also customizable with the user’s experience, so users may also decide to play a variety of sounds in order to create an additional layer of audio therapy, with outside sounds being blocked out using noise cancellation technology. Options for this include a variety of sounds from nature to general background noise, such as soothing rainfall, crackling bonfire, or simple white noise. Everything from the colors, sounds, and display can be modified right from the user’s phone by using the designated mobile app. In conclusion, all these calming appeals to the senses block out the pressures of the world, and allow the resident to become fully enveloped in the visual and auditory relaxants. They can meditate, lay down, or just sit in silence until they feel rested enough to return to the outside world as a more calm, cool, and collected version of themselves.</p></div>
+         
+            <div class="mobile_about"><p>Theraprism is an easily accessible, private space created for people feeling stressed to take a breather. Put simply, it’s a convenient pop-up tent-like device that uses sensory therapy to calm and relax the individual residing inside. Theraprism primarily uses color therapy as a mild, non-toxic treatment for stress, with the inner screens displaying gentle gradients that change color and calm the resident’s mind. Powered by the built in solar panels of the carrier, these built-in screens run along the inside and outside of the tent, curving to perfectly fit the shape of the tent, and completely surrounding users in order to create an experience of their own personal space with no technical interruptions. </p> </div>
         
          <div id="abouttheprism"> <img src="imgs/5abouttheprism.png" height="680px"> </div>
+         <div id="aboutprismmobile"> <img src="imgs/5abouttheprism.png" height="355px"> </div>
     </div>
     
         
@@ -56,14 +97,16 @@
         </p>
         
         <div id="timeline"><img src="imgs/7timeline.png" height=650px></div>
-    </div>
+        
+        <div class="mobiletimeline"><img src="imgs/mobiletimeline.png" width="490px"></div>
+</div>
     
         <div id="section3">
             <h1>product features <img src="imgs/sparklespace.png" height="35px"> </h1><br>
-                <h2><img src="imgs/crystalpoint.png" height="30px"> color therapy <img src="imgs/colortherapy.png" height="60px"></h2>
-                <p>Chromotherapy is a method of treatment that uses the visible colors of electromagnetic radiation to cure diseases which is also called vibration healing. These visual colors with their unique wavelength and oscillations, when combined with a light source and selectively applied to impaired organs or life systems, provide the necessary healing energy required by the body.</p>
+                <div class="desktopcolors"><h2><img src="imgs/crystalpoint.png" height="30px"> color therapy <img src="imgs/colortherapy.png" height="60px"></h2>
+                <p>Chromotherapy is a method of treatment that uses the visible colors of electromagnetic radiation to cure diseases which is also called vibration healing. These visual colors with their unique wavelength and oscillations, when combined with a light source and selectively applied to impaired organs or life systems, provide the necessary healing energy required by the body.</p></div>
 
-            <div id="colors"><img src="imgs/10colorfeelings.png" height="450px"></div>
+            <div id="colors"><img src="imgs/10colorfeelings.png" height="350px"></div>
     
         
     <div class="featuresrow">
@@ -80,16 +123,47 @@
             <div id="holographs"><img src="imgs/14hologramsettings.png" height="300px"></div>
             
         </div>
-    </div>
+        </div>
+        
+    <div id="mobiletherapy">
+        
+         <div class ="colortherapy">
+                <h2><img src="imgs/crystalpoint.png" height="30px"> color therapy <img src="imgs/colortherapy.png" height="60px"></h2>
+                <p>Chromotherapy is a method of treatment that uses the visible colors of electromagnetic radiation to cure diseases which is also called vibration healing. These visual colors with their unique wavelength and oscillations, when combined with a light source and selectively applied to impaired organs or life systems, provide the necessary healing energy required by the body.</p>
+             
+        <img src="imgs/mobilecolorfeeling.png" height="400px">
+        
+        </div>
+        
+        
+        <div class="soundtherapy">
+            <h2><img src="imgs/crystalpoint.png" height="30px"> sound therapy <img src="imgs/soundtherapy.png" height="40px"> </h2>
+            <p>Sound therapy, in which auditory and vibratory inputs are used to influence a person's physiological and/or psychological state, includes sound healing, vibro-acoustic sound therapy, music, and music therapy. Practitioners of sound healing may use chimes, chanting, or drumming to create particular sound frequencies at specific intervals in an eort to promote health and healing of the mind and body.</p> 
+            
+            <img src="imgs/mobilesoundbuttons.png" height="300px">
+        </div>
+        
+        
+        <div class="holographs">
+        <h2><img src="imgs/crystalpoint.png" height="30px"> holograph display <img src="imgs/hologramdisplay.png" height="40px"></h2>
+             <p>For the most enjoyable and relaxing emmersion possible, Theraprism provides the option to turn on holographic displays that enhance with experience with the colors and sounds that the use chooses. From the subtle strokes of a beach wave, the individual droplets of a downpour, to the twinkling sight of a skyline. Theraprism offers a variety of options that will make you feel the best possible way at your fingertips.</p>
+            
+            <img src="imgs/mobilehologramsettings.png" height="300px">
+        
+        </div>
+        
+        </div>
+        
             </div>
         
   <div id="section4">
         <h1> mobile app <img src="imgs/sparklespace.png" height="35px"> </h1>
         
             <div class="appmockup"><img src="imgs/16mobilemockup.png" height="400px"></div>
-       
+            <div class="mobilemockup"><img src="imgs/mobilemockup.png" height="700px"></div>
             <div class="appstore"><img src="imgs/17mobilead.png" height="150px"></div>
-
+     
+      
 </div>
         
     
@@ -104,20 +178,35 @@
     <div class="userrow">
         <div class="usercolumn">
 
-            <p>Hannah is a chemical engineering major at San José State University. She goes to the Library in an attempt to study for an upcoming test that has been weighing down on her mind. At the library, she becomes overwhelmed and frustrated when she doesn’t understand the material she’s studying. She turns to her backpack and takes out her Theraprism tent carrier that fits inside easily, retrieves the product inside, and props the device up to crawl inside. 
+            <p>Hannah is a chemical engineering major at San José State University. She goes to the Library in an attempt to study for an upcoming test that has been weighing down on her mind. At the library, she becomes overwhelmed and frustrated when she doesn’t understand the material she’s studying. She turns to her backpack and takes out her Theraprism tent carrier that fits inside easily, retrieves the product inside, and props the device up. 
                 <br> <br>
-            Within the tent, it’s quiet and serene with its outside noise cancellation technology, and connects to her phone with just a few taps. She taps on the Rainfall setting, to which the tent surrounds her in a deep blue hue of light and a hologram display of raindrops falling gently around her appears. After just 15 minutes of immersion in this therapeutic experience, Hannah exits, folds the tentback up with ease, and returns to her studying, greatly calmed and more focused than she was before.</p> </div>
+            Within the tent, it’s quiet and serene with its outside noise cancellation technology, and connects to her phone with just a few taps. She taps on the Rainfall setting, to which the tent surrounds her in a deep blue hue of light and a hologram display of raindrops falling gently around her appears. After experiencing this therapeutic experience, Hannah exits, folds the tentback up with ease, and returns to her studying, more calmed and focused than she was before.</p> </div>
         
 <div class="usercolumn">
-
             <p>Oliver is a Senior Art Director working at Google. He begins another meeting with his artists discussing the upcoming topics that need to be planned out. The meeting doesn't go well with barely ideas being created and it feels like a block in creativity by the end of it. Anxious for the deadlines to be met, he excuses himself and returns to his office. He picks up the product placed by his desk, easily assembles it, and sits himself inside. 
                 <br> <br>
             Being inside the tent feels like he’s transported into another world, and he sighs in relief at the change in pace. Looking through the mobile app, he sets his screens up to display the Beach setting. Gradients of orange and purple appear with the subtle motions of holographic waves above his ankles. He closes his eyes for 30 minutes and by the time he comes out of the tent, he feels refreshed and as light as ever, with many new ideas to think about.</p> </div>
             </div>
-    </div>
+        
+    <div class="mobilehannah">
+    <img src="imgs/mobilehannah.png" width="400px">    
+         <p>
+        Within the tent, it’s quiet and serene with its outside noise cancellation technology, and connects to her phone with just a few taps. She taps on the Rainfall setting, to which the tent surrounds her in a deep blue hue of light and a hologram display of raindrops falling gently around her appears. After just 15 minutes of immersion in this therapeutic experience, Hannah exits, folds the tentback up with ease, and returns to her studying, greatly calmed and more focused than she was before.</p> 
+        
+        </div>    
 
-        <div id="section6">
-            <h1> purchase <img src="imgs/sparklespace.png" height="35px"></h1>
+    <div class="mobileoliver"> 
+    <img src="imgs/mobileoliver.png" width="400px">
+        <p>
+        Being inside the tent feels like he’s transported into another world, and he sighs in relief at the change in pace. Looking through the mobile app, he sets his screens up to display the Beach setting. Gradients of orange and purple appear with the subtle motions of holographic waves above his ankles. He closes his eyes for 30 minutes and by the time he comes out of the tent, he feels refreshed and as light as ever, with many new ideas to think about.</p> 
+       
+        </div>
+ </div>
+
+        
+        
+<div id="section6">
+        <h1> purchase <img src="imgs/sparklespace.png" height="35px"></h1>
                 <br> <br>
         
         <div class="purchaseimg">
@@ -154,18 +243,33 @@
     <div id="section7">
         <h1> the dream team <img src="imgs/sparklespace.png" height="35px"></h1> <br> <br>
             
-        <img src="imgs/26dreamteamimg.png" height="400px">
-            <br> <br>
+        <div id="desktopdreamteam"><img src="imgs/26dreamteamimg.png" height="400px">
+            <br> <br></div>
 
     <div class="teamrow">
         <div class="teamcolumn">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget cursus ligula. Aliquam ligula nunc, sodales ac lorem sed, elementum facilisis turpis. Duis convallis maximus tincidunt. Sed at hendrerit magna. Duis efficitur orci at urna dapibus, eu viverra nisl dignissim. Donec sit amet erat id enim blandit accumsan nec at nunc. Morbi facilisis a nulla in rutrum. Suspendisse quis est sit amet felis dapibus scelerisque ac porta nisi. Fusce in convallis risus. Etiam bibendum dolor vitae ex mollis, nec gravida purus aliquam. Donec rhoncus dui ut odio tincidunt, rhoncus suscipit orci porttitor. Morbi ullamcorper vulputate quam eu finibus. Vivamus ornare odio sed magna tincidunt rhoncus. Mauris id libero arcu.</p> </div>
+                <p>This here is Ranelle's elderly dog Mocha! She sometimes barks at her owner when setting up her Theraprism tent because she wants in on the relaxation too. Room for another one in there?</p> </div>
         
         <div class="teamcolumn">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget cursus ligula. Aliquam ligula nunc, sodales ac lorem sed, elementum facilisis turpis. Duis convallis maximus tincidunt. Sed at hendrerit magna. Duis efficitur orci at urna dapibus, eu viverra nisl dignissim. Donec sit amet erat id enim blandit accumsan nec at nunc. Morbi facilisis a nulla in rutrum. Suspendisse quis est sit amet felis dapibus scelerisque ac porta nisi. Fusce in convallis risus. Etiam bibendum dolor vitae ex mollis, nec gravida purus aliquam. Donec rhoncus dui ut odio tincidunt, rhoncus suscipit orci porttitor. Morbi ullamcorper vulputate quam eu finibus. Vivamus ornare odio sed magna tincidunt rhoncus. Mauris id libero arcu.</p>
+                <p>This her dog Sadie! When her Theraprism is busy charging, she finds peace in rubbing her doggie's belly, playing catch, or simply going for physical long walks on the beach instead of holographic. </p>
         </div>
+        
+         <!-- I'll add more bio towards the end when we have time to not worry about the hamborgor lol -->
+        
     </div>
 
+        <div id="mobile_dtr">
+        <img src="imgs/dreamteam_r.png" height="400px">
+            <p>This here is Ranelle's elderly dog Mocha! She sometimes barks at her owner when setting up her Theraprism tent because she wants in on the relaxation too. Room for another one in there?</p>
+        
+        </div>
+        
+        <div id="mobile_dtj">
+        <img src="imgs/dreamteam_j.png" height="400px">
+            <p>This her dog Sadie! When her Theraprism is busy charging, she finds peace in rubbing her doggie's belly, playing catch, or simply going for a walk.</p>
+        
+        
+        </div>
         
         
     <div id="footer">
@@ -178,5 +282,17 @@
     
         
 </div>
+    
+    
+<script>
+function myFunction() {
+  var x = document.getElementById("mobile_navbar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
     
     </body></html>
