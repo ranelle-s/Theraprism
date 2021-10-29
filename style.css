@@ -236,15 +236,10 @@ p {
 /* -------------------- section 3: features -------------------- */
 
 #section3 {
-    display: block; 
     background-image: url(imgs/background-03.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-}
-
-#section3_desktop {
-    display: block;
 }
 
 #section3 h1 {
@@ -329,6 +324,16 @@ p {
 
 .featurescolumn p {
     padding-left: 7%;
+}
+
+/* hide mobile sections */
+
+#mobilesoundtherapy {
+    display: none;
+}
+
+.holographs {
+    display: none;
 }
 
 
@@ -784,8 +789,12 @@ p {
     
     /* desktop */
     
-    #section3_desktop {
-    display: none;
+    .desktopcolors, .featuresrow {
+        display: none;
+    }
+    
+    #holographs, #sounds, #colors {
+        display: none;
     }
       .s3header {
         display: none;
@@ -801,19 +810,22 @@ p {
 
     /* mobile */
     
+    #section3 {
+        display: block;
+        background-image: url(imgs/mobilebg-04.jpg);
+    }
+    
     #section3 h1 {
         font-size: 40px;
         padding-top: 20%;
-    }
-    
-    #section3 {
-    background-image: url(imgs/mobilebg-04.jpg); 
     }
     
     #mobiletherapy {
         display: block;
         padding-top: 0px;
     }
+    
+    /* color therapy */
     
     #mobiletherapy h2 {
         font-size: 30px;
@@ -835,8 +847,6 @@ p {
     }
     
     #mobilecoloricon {
-    background-size: cover;
-    background-repeat: no-repeat;
     padding-top: 0px;
     }
     
@@ -844,10 +854,29 @@ p {
         padding-top: 8%;
     }
     
+    /* sound therapy */
+    
     #mobilesoundtherapy {
+        display: block;
         background-image: url(imgs/mobilebg-05.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    
+    #mobilesoundtherapy h2 {
+        text-align: center;
+        margin-right: 0px;
+        font-family: HV Cocktail Regular, sans-serif;
+        src: url(fonts/HV_Cocktail_Regular.ttf);
+        color: #a2c3bb;
+        text-align: center;
+    }
+    
+    #mobilesoundtherapy p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 38px;
+        width: 80%;
     }
     
     #mobilesoundicon img {
@@ -855,16 +884,37 @@ p {
         padding-bottom: 0%;
     }
     
+    /* hologram display */
+    
     .holographs {
+        display: block;
         background-image: url(imgs/mobilebg-04.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    
+    #mobilehologramdisplay h2 {
+        text-align: center;
+        margin-right: 0px;
+        font-family: HV Cocktail Regular, sans-serif;
+        src: url(fonts/HV_Cocktail_Regular.ttf);
+        color: #a2c3bb;
+        text-align: center;
+    }
+    
+    #mobilehologramdisplay p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 38px;
+        width: 80%;
     }
     
     #mobilehologramicon img {
         padding-top: 15%;
         padding-bottom: 0%
     }
+    
+    /* image settings */
     
     #colors img {
         width: 80%;
@@ -882,8 +932,7 @@ p {
         height: auto;
         padding-bottom: 15%;
     }
-    
-    
+     
     
 
 /* ------ section 4: mobile app ----- */
