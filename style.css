@@ -1,6 +1,6 @@
 body, div {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 
 #container {
@@ -10,6 +10,8 @@ body, div {
     text-align: center;
     width: 100%;
 }
+
+/* nav bars */
 
 #mobile_navbar{
     display: none; 
@@ -24,6 +26,8 @@ body, div {
     z-index: 1;
 }
 
+/* landing page */
+
 #landing { 
     position: inherit;
     max-width: 1920px;
@@ -35,32 +39,29 @@ body, div {
     display: none; 
 }
 
+/* butterfly logo */
+
 #logo {
     display: block;
-    margin-top: 0px;
+    margin-top: 0%;
     margin-left: 10%;
     float: left;
     width: 5%;
-    margin-top: 50px;
+    margin-top: 3%;
 }
 
-
-#s1 { 
-    margin-top: 30px;
-    float: center;
-}
-
+/* cart logo */
 
 #cart {
     float: right;
     margin-right: 10%;
-    margin-top: 50px;
+    margin-top: 2.3%;
 }
 
-
+/* nav text */
 
 nav {
-    margin-top: 50px;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -71,29 +72,29 @@ nav {
 }
 
 ul {
-    margin: 35px;
-    padding: 0px;
-    height: 50px;
-    padding-top: 3px;
+    margin: 2%;
+    padding: 0%;
+    height: 10%;
 }
 
-}
-
+/* font choice */
 
 @font-face {
     font-family: Avenir Book;
     src: url(fonts/Avenir.ttc)
 }
 
+/* nav bar hover and click decorations */
+
 li {
     display: inline;
     float: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: #f4f3f3;
-    padding: 5px;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 3%;
+    padding-right: 0%;
+    padding-left: 0%;
     border-radius: 5px;
     font-family: Avenir Book, sans-serif;
     src: url(fonts/Avenir.ttc)
@@ -119,7 +120,7 @@ li a:hover {
 }
 
 
-
+/* header and paragraph text settings */
 
 h1 {
     margin: 0;
@@ -142,21 +143,26 @@ p {
 }
 
 
+/* -------------------- section 1: about -------------------- */
 
 #section1 {
     background-image: url(imgs/background-01.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 13%;
     height: 1000px;
-    padding-top: 200px;
-    width: 100%;
+    /* !!! for some reason, when i delete this height setting, the background only covers the top half of the section? may be causing problems in mobile as well. !!! */
 }
 
 #section1 h1 {
-    margin-right: 1120px;
+    margin-right: 65%;
     color: #85acaa;
     display: inline-block;
+}
+
+.desktop_about {
+    display: block; 
 }
 
 .desktop_about p {
@@ -164,62 +170,62 @@ p {
     display: inline-block;
     width: 20%;
     float: left;
-    padding-left: 150px;
-}
-
-.desktop_about {
-    display: block; 
-}
-
-.mobile_about p {
-    display: none;
+    padding-left: 10%;
 }
 
 #abouttheprism {
     float: right; 
     z-index: -1;
     display: inline-block;
-    margin-right: 140px;
+    margin-right: 5%;
     margin-top: 0px;
+    width: 60%;
+    height: auto;
+    padding-bottom: 10%;
 }
 
 #aboutprismmobile {
     display: none;
 }
 
+.mobile_about p {
+    display: none;
+}
+
+
+/* -------------------- section 2: history -------------------- */
 
 #section2 {
     background-image: url(imgs/background-02.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 50px;
+    padding-top: 5%;
     width: 100%;
 }
 
 #section2 h1 {
-    padding-top: 140px;
+    padding-top: 8%;
     float: right;
-    margin-right: 70px;
+    margin-right: 25%;
     color: #85acaa;
-    height: 40px;
     font-family: HV Cocktail Regular, sans-serif;
         src: url(fonts/HV_Cocktail_Regular.ttf)
 }
 
 #section2 p {
-    padding-top: 180px;
+    padding-top: 10.5%;
     width: 20%;
-    margin-right: 105px;
-    text-align: right;
+    margin-right: 13%;
+    text-align: left;
     height: 0px;
 }
 
 
-
-
 #timeline {
-    padding-bottom: 140px;
+    padding-bottom: 6%;
     position: inherit;
+    width: 100%;
+    height: auto;
 }
 
 .mobiletimeline {
@@ -227,6 +233,7 @@ p {
 }
 
 
+/* -------------------- section 3: features -------------------- */
 
 #section3 {
     background-image: url(imgs/background-03.jpg);
@@ -236,44 +243,53 @@ p {
 }
 
 #section3 h1 {
-    padding-top: 200px;
+    padding-top: 13%;
     color: #85acaa;
     padding-bottom: 30px;
 }
+
+
+/* header and paragraph settings */
 
 #section3 h2 {
     font-family: HV Cocktail Regular, sans-serif;
     src: url(fonts/HV_Cocktail_Regular.ttf);
     color: #a2c3bb;
-    margin-right: 160px;
-    padding-bottom: 20px;
+    margin-right: 9.5%;
+    padding-bottom: 2%;
 }
 
 #section3 p {
     width: 400px;
     text-align: left;
-    padding-bottom: 30px;
+    padding-bottom: 5%;
 }
 
+
+/* color therapy */
 
 .desktopcolors p {
-    padding-left: 60px;
+    padding-left: 3.5%;
     display: block;
 }
-
-.featurescolumn p {
-    padding-left: 35px;
-}
-
 
 #colors {
     display: block;
-    padding-bottom:120px;
-    padding-left: 45px;
+    padding-bottom: 5%;
+    padding-left: 1%;
 }
+
+/* sound therapy */
+
+#sounds {
+   margin-left: 11%;
+}
+
+/* hologram display */
 
 #holographs {
     display: block;
+    margin-left: 20%;
 }
 
 #mobiletherapy {
@@ -281,18 +297,19 @@ p {
 }
 
 
+/* column settings */
+
 .featuresrow h2 {
     float: center;
     font-family: HV Cocktail Regular, sans-serif;
     src: url(fonts/HV_Cocktail_Regular.ttf);
     color: #a2c3bb;
     text-align: left;
-    padding-bottom: 10px;
 }
 
 .featuresrow p {
-    padding-bottom: 20px;
-    margin-right: 100px;
+    padding-bottom: 10%;
+    margin-right: 15%;
 }
 
 .featurescolumn {
@@ -300,19 +317,17 @@ p {
     width: 30%;
     float: center;
     text-align: left;
-    margin-right: 70px;
-    margin-left: 150px;
-    padding-bottom: 175px;
+    margin-right: 4%;
+    margin-left: 9%;
+    padding-bottom: 10%;
 }
 
-#sounds {
-   margin-left: 50px
+.featurescolumn p {
+    padding-left: 7%;
 }
 
-#holographs {
-    margin-left: 80px;
-}
 
+/* -------------------- section 4: mobile app -------------------- */
 
 #section4 {
     background-image: url(imgs/background-04.jpg);
@@ -323,28 +338,34 @@ p {
 }
 
 #section4 h1 {
-    padding-top: 150px;
+    padding-top: 13%;
     float: center;
     font-family: HV Cocktail Regular, sans-serif;
     src: url(fonts/HV_Cocktail_Regular.ttf);
     color: #85acaa;
 }
 
+/* desktop settings */
+
 .appmockup {
+    display: block;
     padding-top: 50px;
     margin-bottom: 100px;
 }
 
-.mobilemockup {
-    display: none;
-}
-
 .appstore {
+    display: block;
     padding-bottom: 100px;
 }
 
+/* mobile settings */
+
+.mobilemockup, .mobileappstore{
+    display: none;
+}
 
 
+/* -------------------- section 5: user stories -------------------- */
 
 #section5 {
     background-image: url(imgs/background-05.jpg);
@@ -359,6 +380,7 @@ p {
     margin-left: 2%;
 }
 
+/* column settings */
 
 .usercolumn {
     display: inline-block;
@@ -370,6 +392,7 @@ p {
     padding-bottom: 100px;
 }
 
+/* mobile settings */
 
 .mobilehannah {
     display: none;
@@ -379,18 +402,25 @@ p {
     display: none;
 }
 
+
+/* -------------------- section 6: purchase -------------------- */
+
+
+.purchasemobileimg img, mobilepurchasedesc img {
+    display: none;
+}
+
 #section6 {
     background-image: url(imgs/background-06.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 200px;
     width: 100%;
-
 }
 
 #section6 h1 {
     color: #85acaa;
-    margin-left: 480px;
+    margin-left: 29%;
+    padding-top: 13%
 }
 
 #section6 p {
@@ -399,64 +429,76 @@ p {
     width: 40%;
 }
 
-
-
 .purchaseimg {
     float: left;
     display: inline-flex;
     margin-left: 300px;
+    width: 30%;
+    height: auto;
 }
 
-.purchase {
-    float: right;
-}
-
+/* theraprism and price img */
 
 .purchaseinfo {
-    margin-right: 280px;
-    padding-top: 32px;
+    margin-right: 13%;
+    padding-top: 2%;
 }
 
+/* bulleted list settings */
 
 .purchasepointsp p {
     float: left;
     text-align: left;
-    width: 80%;
-    /* Paragraph length won't move when changing the width. */
-    
+    width: 40%;
+    /* !!! paragraph length won't move when changing the width? !!! */
     position: relative;
     display: inline-block;
 }
 
+/* add to cart icon */
 
 .buy {
     float: right;
-    margin-right: 260px;
+    margin-right: 19%;
 }
 
+/* mobile app ad */
 
 .appmockup2 {
-    padding-top: 400px;
+    padding-top: 25%;
     float: center;
-    padding-bottom: 150px;
+    padding-bottom: 5%;
+}
+
+    .mobiletitleprice img {
+        display: none;
+    }
+    
+    .mobilepurchasedesc img {
+        display: none;
+    }
+
+.mobileaddcartbutton img {
+    display: none;
 }
 
 
+/* -------------------- section 7: our team -------------------- */
 
 #section7 {
     background-image: url(imgs/background-07.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 200px;
+    padding-top: 13%;
     width: 100%;
 }
 
 #section7 h1 {
     color: #85acaa;
-    margin-left: 25px;
+    margin-left: 0.5%;
 }
 
-
+/* column settings */
 
 .teamrow h2 {
     float: center;
@@ -473,8 +515,10 @@ p {
     text-align: left;
     margin-left: 10%;
     margin-right: 3%;
-    padding-bottom: 100px
+    padding-bottom: 5%;
 }
+
+/* mobile group member paragraphs */
 
 #mobile_dtr {
     display: none;
@@ -484,9 +528,11 @@ p {
     display: none;
 }
 
+/* footer settings */
 
 #footer {
-    padding-bottom: 50px;
+    display: block;
+    padding-bottom: 2%;
 }
 
 #footer p {
@@ -495,59 +541,84 @@ p {
     color: #a2c3bb;
 }
 
+#mobile_footer {
+    display: none;
+}
 
 
 
 
-@media only screen and (max-width : 700px) {
+/* ----------------------------------- MOBILE SETTINGS -------------------------------------- */
+
+
+
+
+
+@media only screen and (max-width : 376px) {
+   
+    /* hamburger menu */
     
     .topnav a:not(:first-child) {display: none;}
     .topnav a:first-child {
         float:left;
-        padding-left: 20px;
+        padding-left: 0px;
     }
 
-  .topnav a.icon, #mobile_navbar a.icon {
-    float: right;
-    display: inline-block;
-    margin-right: 50px;
-    margin-top: 5px;
-    font-size: 50px;
-  }
+    .topnav a.icon, #mobile_navbar a.icon {
+        float: left;
+        display: block;
+        font-size: 30px;
+        padding-top: 5%;
+        padding-left: 8%;
+        z-index: 1
+    }
      
     .topnav.responsive {
-      position: relative;
+        position: relative;
     }
     
-  .topnav.responsive .icon {
-    position: inherit;
-    padding-top: 20px;
-  }
+    .topnav.responsive .icon {
+        position: inherit;
+        z-index: 1;
+    }
     
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-    padding-left: 20px;
-  }
-   
-    #mobile_navbar{
+    .topnav.responsive a {
+        float: none;
         display: block;
-        padding-top: 10px; 
-        background-image: linear-gradient(rgba(245,244,244,3) 40%, rgba(245,244,244,0.0)); 
-        position: fixed;
-        width: 100%;
-        height: 20%;   
-        font-size: 20px;
+        text-align: center;
+        padding-top: 7%;
+        padding-right: 20%;
+        padding-bottom: 7%;
+        height: 4%;
+        font-size: 18px;
         font-family: Avenir Book, sans-serif;
+        src: url(fonts/Avenir.ttc);
+    }
+   
+/* mobile nav bar */
+    
+#mobile_navbar {
+    display: block;
+    padding-top: 10px; 
+    background-image: linear-gradient(rgba(245,244,244,3) 40%, rgba(245,244,244,0.0)); 
+    position: fixed;
+    width: 100%;
+    height: 20%;   
+    font-size: 20px;
+    font-family: Avenir Book, sans-serif;
     src: url(fonts/Avenir.ttc)
     }
     
     #mobile_navbar a{
-        text-decoration: none;
-        color: #85acaa;
-        line-height: 25px; 
+    text-decoration: none;
+    color: #85acaa;
+    background-image: linear-gradient(to right, rgba(245,244,244,1) 60%, rgba(245,244,244,0.0));
     }
+    
+    #mobile_navbar a:hover {
+    }
+    
+/* centered mobile nav bar butterfly logo */
     
     .mobilelogo {
         float: center;
@@ -555,230 +626,336 @@ p {
  /* putting z-index here so hamburger menu shows, issue with both not appearing at same time */
         z-index: -1;
         display: inline-block;
+        background-image: none;
     }
     
-    #nav_bar {
-        display: none; 
-    }
+/* desktop butterfly logo */
     
     #logo {
-    display: none;
+        display: none;
     }
     
+/* desktop nav bar */
     
     #nav_bar {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+        display: none;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
     }
     
     li {
-    display: block;
-    line-height: 22px;
+        display: block;
+        line-height: 22px;
     }
     
     ul {
-    margin: 0;
-    padding: 0;
-    height: 180px;
-    padding-top: 20px;
+        margin: 0;
+        padding: 0;
+        height: 180px;
+        padding-top: 20px;
     }
     
+/* desktop cart logo */
+    
     #cart {
+        display: none;
+    }
+    
+    
+/* landing page */
+    
+    #landing img {
         display: none;
     }
     
     #mobilelanding {
         background-image: url(imgs/mobilebg-01.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
     }
     
-    #landing img {
-        display: none;
-
+    #mobilelanding img {
+        padding-left: 11px;
     }
     
     #mobilelanding {
         display: block;
         padding-top: 150px;
-        padding-bottom: 150px;
+        padding-bottom: 50px;
     }
+    
+    
+/* ------ section 1: about ----- */
+    
     
 #section1 {
     background-image: url(imgs/mobilebg-02.jpg);
-    padding-bottom: 0px;
-    padding-top: 0px;
-    }
+    width: 100%;
+    height: auto;
+}
     
-    #section1 h1 {
-        text-align: center;
-        margin-right: 0;
-        padding-top: 0px;
-    }
+    /* desktop */
     
     #abouttheprism {
         display: none;
-        margin-bottom: 10px;
     }
     
     .desktop_about {
         display: none;
     }
     
+    /* mobile */
+    
+    #section1 h1 {
+        text-align: center;
+        margin-right: 0%;
+        font-size: 37px;
+        width: 80%;
+    }
+    
     .mobile_about p {
         display: block;
         width: 80%;
         padding-bottom: 50px;
-        font-size: 15px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 38px;
     }
     
     #aboutprismmobile {
         display: block;
-        padding-bottom: 0px;
+        padding-bottom: 6%;
     }
     
     
+/* ------ section 2: history ----- */
     
+    /* desktop */
+    
+ #timeline img {
+        display: none;
+    }
+    
+   /* mobile */ 
+
 #section2 {
     background-image: url(imgs/mobilebg-03.jpg);
     padding-top: 0px;
-    }
+}
     
     #section2 h1 {
         display: block;
         float: none;
         margin-right: 0px;
         padding-top: 0px;
+        font-size: 40px;
+        text-align: center;
     }
     
     #section2 p {
         display: block;
         text-align: center;
-        padding-bottom: 30px;
+        padding-bottom: 0px;
         width: 80%;
         margin-right: 10%;
-        font-size: 15px;
-        line-height: 30px;
-        padding-top: 15px;
-    }
-    
-    #timeline img {
-        display: none;
+        padding-top: 5%;
+        font-size: 18px;
+        line-height: 38px;
+        height: 100%;
     }
     
     .mobiletimeline {
         display: block;
-        max-width: 99%;
-        max-height: 99%;
         width: 100%;
+        height: auto;
+        padding-top: 5%;
         padding-bottom: 50px;
     }
     
-#section3 {
-    background-image: url(imgs/mobilebg-04.jpg);
-    padding-top: 0px;
+    
+/* ------ section 3: features ----- */
+    
+    /* desktop */
+    
+    .desktopcolors, .featuresrow {
+        display: none;
+    }
+    
+    #holographs, #sounds, #colors {
+        display: none;
+    }
+      .s3header {
+        display: none;
+    }
+    
+    .featuresrow p {
+        padding-bottom: 0%;
+    }
+
+    .featurescolumn {
+        padding-bottom: 0%
+    }
+
+    /* mobile */
+    
+    #section3 {
+        display: contents;
     }
     
     #section3 h1 {
-        padding-top: 0px;
+        font-size: 40px;
+        padding-top: 20%;
     }
     
-    .desktopcolors {
-        display: none;
-    }
-    
-    .featuresrow {
-        display: none;
-    }
-
     #mobiletherapy {
         display: block;
-        padding-bottom: 80px;
         padding-top: 0px;
-    }
-    
-      #holographs {
-        display: none;
-    }
-    
-    #sounds {
-        display: none;
-    }
-    
-    #colors {
-        display: none;
     }
     
     #mobiletherapy h2 {
         font-size: 30px;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 0px;
+        margin-right: 0px;
     }
     
     #mobiletherapy p {
-        text-align: left;
-        font-size: 15px;
-        line-height: 30px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 38px;
+        width: 80%;
+    }
+    
+    #mobilecolorsicon img, #mobilesoundicon img, #mobilehologramicon img {
+        width: 20%;
+        height: auto;
+    }
+    
+    #mobilecoloricon {
+    background-image: url(imgs/mobilebg-04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    }
+    
+    #mobilecoloricon img {
+        padding-top: 8%;
+    }
+    
+    #mobilesoundtherapy {
+        background-image: url(imgs/mobilebg-05.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #mobilesoundicon img {
+        padding-top: 15%;
+        padding-bottom: 0%;
+    }
+    
+    .holographs {
+        background-image: url(imgs/mobilebg-04.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #mobilehologramicon img {
+        padding-top: 15%;
+        padding-bottom: 0%
+    }
+    
+    #colors img {
+        width: 80%;
+        height: auto;
+    }
+    
+    .soundtherapy img {
+        width: 80%;
+        height: auto;
+        padding-bottom: 15%;
+    }
+    
+    .holographs img {
+        width: 80%;
+        height: auto;
+        padding-bottom: 15%;
     }
     
     
+    
+
+/* ------ section 4: mobile app ----- */
+  
+    /* desktop */
+    
+    .usercolumn, .appmockup, .appstore {
+        display: none;
+    }
+
+    /* mobile */
     
 #section4 {
     background-image: url(imgs/mobilebg-05.jpg);
     padding-top: 0px;
     }
-     
-    .usercolumn {
-        display: none;
-    }
-
-    .appmockup {
-        display: none;
-    }
     
-    #section4 h1 {
+    #section4 h1{
+        font-size: 40px;
         padding-top: 0px;
-        padding-bottom: 50px;
+        margin-left: 8%
     }
     
-    
-    .mobilemockup {
+    .mobilemockup, .mobileappstore {
         display: block;
         padding-top: 30px;
         padding-bottom: 30px;
     }
-   
     
+    
+/* ------ section 5: user stories ----- */
+  
+    /* desktop */
+    
+    #userportraits {
+        display:none;
+    }
+    
+    .teamrow {
+        display:none;
+    }
+    
+    /* mobile */
     
 #section5 {
     background-image: url(imgs/mobilebg-06.jpg);
 }
     
     #section5 h1 {
+        font-size: 40px;
         padding-top: 0px;
     }
     
     #section5 p {
         width: 80%;
         padding-bottom: 100px;
-        font-size: 15px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 38px;
     }
-
-    #userportraits {
-        display:none;
-    }
+    
+    /* hannah */
     
     .mobilehannah {
     display: block;
     padding-top: 30px;
-}
+    }
     
     .mobilehannah p {
-        font-size: 15px;
-        padding-bottom: 50px;
+        padding-bottom: 8%;
     }
+    
+    /* oliver */
 
     .mobileoliver {
     display: block;
@@ -786,14 +963,32 @@ p {
     
     
     .mobileoliver p {
-        font-size: 15px;
+        padding-bottom: 8%; 
     }
     
-   
-    .teamrow {
-        display:none;
-    }
 
+/* ------ section 6: purchase page ----- */
+  
+    /* desktop */
+    
+    .purchaseimg, .purchasepointsp, .purchaseinfo {
+        display: none;
+    }
+    
+    .buy img, .appmockup2 img {
+        display: none;
+    }
+    
+        .purchaseinfo {
+        padding-top: 0px;
+    }
+    
+    .appmockup2 {
+        padding-top: 0px;
+    }
+    
+    /* mobile */
+    
 #section6 {
     background-image: url(imgs/mobilebg-07.jpg);
 }
@@ -801,61 +996,88 @@ p {
     #section6 h1 {
         margin-left: 0px;
         padding-top: 0px;
+        font-size: 40px;
+        padding-bottom: 0px;
     }
     
-    .purchaseimg {
+    .purchasemobileimg img {
+    display: block;
+    }
+    
+    .mobiletitleprice img {
+        display: block;
+        padding-top: 30px;
+        margin-left: 22%;
+    }
+    
+    .mobilepurchasedesc img {
+        padding-top: 30px;
+        display: block;
+        margin-left: 20%;
+    }
+    
+    .mobileaddcartbutton img {
+    display: block;
+    margin-left: 11%;
+    padding-top: 7%;
+    padding-bottom: 15%
+}
+    
+    
+    
+/* ------ section 7: our team ----- */
+  
+    /* desktop */
+    
+    #desktopdreamteam{
         display: none;
     }
     
-    .purchasepointsp {
-        display: none
-    }
-    
-
-    
+    /* mobile */
     
 #section7 {
     background-image: url(imgs/mobilebg-08.jpg)
     }
     
-    #section7 h1 {
-        padding-top: 0px;
-    }
-
-    
-    #desktopdreamteam{
-        display:none;
+    #section7 h1{
+        font-size: 40px;
     }
     
-    #mobile_dtr {
-    display: block;
-        padding-top: 30px;
-}
-    
-    #mobile_dtr p {
-        font-size: 15px;
-        padding-bottom: 50px;
-        width: 80%;
-    }
-
-    #mobile_dtj {
-    display: block; 
-    
+    #mobile_dtr, #mobile_dtj {
+        display: block;
+        padding-top: 30px; 
     }
     
-    #mobile_dtj p {
-        font-size: 15px;
-        padding-bottom: 50px;
+    #mobile_dtr p, #mobile_dtj p {
+        font-size: 18px;
+        line-height: 38px; 
         width: 80%;
     }
     
-    #footer p {
-        font-size: 15px;
+    /* mobile footer settings */
+    
+    #footer {
+        display: none;
     }
     
-    #section1, #section2, #section3, #section4, #section5, #section6, #section7     {
+    #mobile_footer {
+        display: block; 
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    
+    #mobile_footer p {
+        font-size: 14px;
+        text-align: center;
+        float: center;
+        color: #a2c3bb;
+    }
+    
+    /* extra padding */
+    
+    #section1, #section2, #section3, #section4, #section5, #section6, #section7 {
         padding-top: 200px;
-
     }
-    
+  
+    /* media query closing parenthesis */
 }
