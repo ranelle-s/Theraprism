@@ -236,10 +236,15 @@ p {
 /* -------------------- section 3: features -------------------- */
 
 #section3 {
+    display: block; 
     background-image: url(imgs/background-03.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+}
+
+#section3_desktop {
+    display: block;
 }
 
 #section3 h1 {
@@ -779,12 +784,8 @@ p {
     
     /* desktop */
     
-    .desktopcolors, .featuresrow {
-        display: none;
-    }
-    
-    #holographs, #sounds, #colors {
-        display: none;
+    #section3_desktop {
+    display: none;
     }
       .s3header {
         display: none;
@@ -800,13 +801,13 @@ p {
 
     /* mobile */
     
-    #section3 {
-        display: contents;
-    }
-    
     #section3 h1 {
         font-size: 40px;
         padding-top: 20%;
+    }
+    
+    #section3 {
+    background-image: url(imgs/mobilebg-04.jpg); 
     }
     
     #mobiletherapy {
@@ -834,7 +835,6 @@ p {
     }
     
     #mobilecoloricon {
-    background-image: url(imgs/mobilebg-04.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 0px;
