@@ -80,8 +80,7 @@ ul {
 /* font choice */
 
 @font-face {
-    font-family: Avenir Book;
-    src: url(fonts/Avenir.ttc)
+    font-family:'Montserrat', sans-serif;
 }
 
 /* nav bar hover and click decorations */
@@ -96,8 +95,7 @@ li {
     padding-right: 0%;
     padding-left: 0%;
     border-radius: 5px;
-    font-family: Avenir Book, sans-serif;
-    src: url(fonts/Avenir.ttc)
+    font-family: 'Montserrat', sans-serif;
 }
 
 li a {
@@ -125,16 +123,15 @@ li a:hover {
 h1 {
     margin: 0;
     padding: 0;
-    font-family: HV Cocktail Regular, sans-serif;
-        src: url(fonts/HV_Cocktail_Regular.ttf)
+    font-family: font-family: 'Rakkas', cursive;
+    font-size: 35px;
 }
 
 p {
     background-color: none;
     opacity: 1;
     color: #788199;
-    font-family: Avenir Book, sans-serif;
-        src: url(font/Avenir.ttc);
+    font-family: 'Montserrat', sans-serif;
     font-size: small;
     width: 100%;
     margin-left: auto;
@@ -152,7 +149,6 @@ p {
     background-repeat: no-repeat;
     padding-top: 13%;
     height: 1000px;
-    /* !!! for some reason, when i delete this height setting, the background only covers the top half of the section? may be causing problems in mobile as well. !!! */
 }
 
 #section1 h1 {
@@ -171,6 +167,7 @@ p {
     width: 20%;
     float: left;
     padding-left: 10%;
+    font-size: 12px;
 }
 
 #abouttheprism {
@@ -208,8 +205,7 @@ p {
     float: right;
     margin-right: 25%;
     color: #85acaa;
-    font-family: HV Cocktail Regular, sans-serif;
-        src: url(fonts/HV_Cocktail_Regular.ttf)
+    font-family: font-family: 'Rakkas', cursive;
 }
 
 #section2 p {
@@ -218,6 +214,7 @@ p {
     margin-right: 13%;
     text-align: left;
     height: 0px;
+    font-size: 12px;
 }
 
 
@@ -252,10 +249,10 @@ p {
 /* header and paragraph settings */
 
 #section3 h2 {
-    font-family: HV Cocktail Regular, sans-serif;
-    src: url(fonts/HV_Cocktail_Regular.ttf);
+    font-family: font-family: 'Rakkas', cursive;
     color: #a2c3bb;
     margin-right: 9.5%;
+    font-size: 28px;
 }
 
 #section3 p {
@@ -263,6 +260,7 @@ p {
     text-align: left;
     padding-top: 1%;
     padding-bottom: 2%;
+    font-size: 12px;
 }
 
 
@@ -271,6 +269,7 @@ p {
 .desktopcolors p {
     padding-left: 3.5%;
     display: block;
+    font-size: 12px;
 }
 
 .desktopcolors img {
@@ -320,8 +319,7 @@ p {
 
 .featuresrow h2 {
     float: center;
-    font-family: HV Cocktail Regular, sans-serif;
-    src: url(fonts/HV_Cocktail_Regular.ttf);
+    font-family: font-family: 'Rakkas', cursive;
     color: #a2c3bb;
     text-align: left;
 }
@@ -373,8 +371,7 @@ p {
 #section4 h1 {
     padding-top: 11%;
     float: center;
-    font-family: HV Cocktail Regular, sans-serif;
-    src: url(fonts/HV_Cocktail_Regular.ttf);
+    font-family: font-family: 'Rakkas', cursive;
     color: #85acaa;
     padding-bottom: 1%;
 }
@@ -406,6 +403,10 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+}
+
+#section5 p {
+    font-size: 12px;
 }
 
 #section5 h1 {
@@ -461,6 +462,7 @@ p {
     text-align: left;
     float: right;
     width: 40%;
+    font-size: 12px;
 }
 
 .purchaseimg {
@@ -532,12 +534,15 @@ p {
     margin-left: 0.5%;
 }
 
+#section7 p {
+    font-size: 12px;
+}
+
 /* column settings */
 
 .teamrow h2 {
     float: center;
-    font-family: HV Cocktail Regular, sans-serif;
-    src: url(fonts/HV_Cocktail_Regular.ttf);
+    font-family: font-family: 'Rakkas', cursive;
     color: #a2c3bb;
     text-align: center;
 }
@@ -625,8 +630,7 @@ p {
         padding-bottom: 7%;
         height: 4%;
         font-size: 18px;
-        font-family: Avenir Book, sans-serif;
-        src: url(fonts/Avenir.ttc);
+        font-family: 'Montserrat', sans-serif;
     }
    
 /* mobile nav bar */
@@ -639,8 +643,7 @@ p {
     width: 100%;
     height: 20%;   
     font-size: 20px;
-    font-family: Avenir Book, sans-serif;
-    src: url(fonts/Avenir.ttc)
+    font-family: 'Montserrat', sans-serif;
     }
     
     #mobile_navbar a{
@@ -891,8 +894,7 @@ p {
     #mobilesoundtherapy h2 {
         text-align: center;
         margin-right: 0px;
-        font-family: HV Cocktail Regular, sans-serif;
-        src: url(fonts/HV_Cocktail_Regular.ttf);
+        font-family: font-family: 'Rakkas', cursive;
         font-size: 30px;
         color: #a2c3bb;
         text-align: center;
@@ -922,8 +924,7 @@ p {
     #mobilehologramdisplay h2 {
         text-align: center;
         margin-right: 0px;
-        font-family: HV Cocktail Regular, sans-serif;
-        src: url(fonts/HV_Cocktail_Regular.ttf);
+        font-family: font-family: 'Rakkas', cursive;
         font-size: 30px;
         color: #a2c3bb;
         text-align: center;
